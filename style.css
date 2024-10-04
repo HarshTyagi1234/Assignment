@@ -1,0 +1,262 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
+
+  header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .navbar .logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .auth-buttons a {
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    margin-left: 10px;
+  }
+  
+  .login-btn {
+    background-color: #f8f9fa;
+    color: #007BFF;
+  }
+  
+  .register-btn {
+    background-color: #007BFF;
+    color: #fff;
+  }
+  
+ 
+  .hero {
+    background-color: #007BFF; 
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .join-btn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+
+  .features {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .features h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .feature-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .feature-item {
+    width: 45%;
+    margin-bottom: 30px;
+  }
+  
+  .feature-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .feature-item p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .learn-more-btn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 4px;
+  }
+  
+
+  .section {
+    padding: 50px;
+    background-color: white;
+  }
+  
+  .section h2 {
+    color: #111;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .section p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .flex-item {
+    flex: 1 1 30%;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .register-section {
+    background-color: #f4f4f4;
+    padding: 60px 20px;
+  }
+  
+  .register-section form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .register-section input {
+    padding: 12px;
+    width: calc(100% - 20px);
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1.1em;
+  }
+  
+  .register-section button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1em;
+    border-radius: 5px;
+    width: calc(100% - 20px);
+  }
+  
+  .register-section button:hover {
+    background-color: #0056b3;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #ddd;
+    padding: 40px 0;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .footer-links div {
+    margin: 0 20px;
+  }
+  
+  footer h4 {
+    color: #f8f9fa;
+    margin-bottom: 10px;
+  }
+  
+  footer a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9em;
+  }
+  
+  footer a:hover {
+    color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  
+    .flex-item {
+      width: 100%;
+    }
+  
+    .register-section form {
+      width: 90%;
+    }
+  
+    .feature-item {
+      width: 100%;
+    }
+  }
+  
